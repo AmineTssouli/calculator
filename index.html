@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+
+</head>
+<body>
+    <div>
+        <h2>Task 1</h2>
+        <input type="text" id="firstValue" size="5px"> 
+        <select name="operator" id="operator-1"  >
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="secondValue" size="5px">
+        <button name="result" id="equal" onclick="display()">=</button>
+        <strong id="result">Press = Mark!</strong>
+    </div>
+    <div>
+        <h2>Task 2</h2>
+        <input type="text" id="firstValue2"><br>
+        <input type="radio" id="+" name="operator-2" value="+" checked>
+        <label for="+">Addition</label><br>
+        <input type="radio" id="-" name="operator-2" value="-">
+        <label for="-">Substraction</label><br>
+        <input type="radio" id="*" name="operator-2" value="*">
+        <label for="*">Multiplication</label><br>
+        <input type="radio" id="/" name="operator-2" value="/">
+        <label for="/">Distribution</label><br>
+        <input type="text" id="secondValue2">
+        <button name="result" id="equal" onclick="display2()">=</button>
+        <strong id="result2">Press = Mark!</strong>
+    </div>
+    <div>
+        <h2>Task 3</h2>
+        <button onclick="decrement('firstValue3')">&#9660;</button><input type="text" id="firstValue3" size="5px"><button onclick="increment('firstValue3')">&#9650;</button>
+        <select name="operator" id="operator-3" >
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button onclick="decrement('secondValue3')">&#9660;</button><input type="text" id="secondValue3" size="5px"><button onclick="increment('secondValue3')">&#9650;</button>
+        <button name="result" id="equal" onclick="display3()">=</button>
+        <strong id="result3">Press = Mark!</strong>
+
+    </div>    
+</body>
+</html>

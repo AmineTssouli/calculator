@@ -1,0 +1,10 @@
+#operator-1,#operator-3{
+    width: 5rem;
+}
+#firstvalue,#secondvalue {
+    size: 0.5rem;
+}
+#equal {
+    background-color: aqua;
+    width: 5rem;
+}
